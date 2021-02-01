@@ -1,21 +1,21 @@
 const appkey = require('../config.js').bstar_a_ak
 
 const headers = {
-    'Host': 'app.global.bilibili.com',
-    'APP-KEY': 'android',
-    'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 11; IN2020 Build/RP1A.201005.001)',
+  'Host': 'app.global.bilibili.com',
+  'APP-KEY': 'android',
+  'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 11; IN2020 Build/RP1A.201005.001)',
 }
 
 let params = {
-    'appkey': appkey,
-    'ep_id': ''
+  'appkey': appkey,
+  'ep_id': ''
 }
 
 let options = {
-    url: '',
-    method: 'GET',
-    headers,
-    timeout:5000
+  url: '',
+  method: 'GET',
+  headers,
+  timeout: 5000
 
 }
 

@@ -41,20 +41,20 @@ const biliLink_sk = 'e988e794d4d4b6dd43bc0e89d6e90c43'
 const bstar_a_ak = '7d089525d3611b1c'
 const bstar_a_sk = 'acd495b248ec528c2eed1e862d393126'
 module.exports = {
-     user,
-     password,
-     database,
-     host,
-     port,
-     tw_proxy,
-     cn_proxy,
-     th_proxy,
-     hk_proxy,
-     access_key,
-     android_ak,
-     android_sk,
-     Web_Ak,
-     Web_Sk,
-     bstar_a_ak,
-     bstar_a_sk
+  user,
+  password,
+  database,
+  host,
+  port,
+  tw_proxy,
+  cn_proxy,
+  th_proxy,
+  hk_proxy,
+  access_key,
+  android_ak,
+  android_sk,
+  Web_Ak,
+  Web_Sk,
+  bstar_a_ak,
+  bstar_a_sk
 }
