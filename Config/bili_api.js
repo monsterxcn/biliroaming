@@ -82,7 +82,7 @@ async function api_playurl(access_key, cid, ep_id, fnval, fourk, qn, ts, area) {
 }
 async function api_th_playurl(access_key, cid, ep_id, fnval, fourk, qn, ts, area) { //东南亚app客户端视频地址
   try {
-    th_playurl.options.httpsAgent = HttpsAgent(area)
+    // th_playurl.options.httpsAgent = HttpsAgent(area)
     th_playurl.params.access_key = access_key
     th_playurl.params.ts = ts
     th_playurl.params.ep_id = ep_id
@@ -110,7 +110,7 @@ async function api_th_playurl(access_key, cid, ep_id, fnval, fourk, qn, ts, area
 }
 async function api_th_subtitle(ep_id) { //字幕
   try {
-    th_subtitle.options.httpsAgent = HttpsAgent('th')
+    // th_subtitle.options.httpsAgent = HttpsAgent('th')
     th_subtitle.params.ep_id = ep_id
     th_subtitle.options.url = `https://app.global.bilibili.com/intl/gateway/v2/app/subtitle?${sign_Params(th_subtitle.params, bstar_Sign)}`
     let resp = await axios(th_subtitle.options)
@@ -132,7 +132,7 @@ async function api_th_subtitle(ep_id) { //字幕
 }
 async function api_th_search(params) { //东南亚搜索
   try {
-    th_search.options.httpsAgent = HttpsAgent('th')
+    // th_search.options.httpsAgent = HttpsAgent('th')
     th_search.params = params
     th_search.options.url = `https://app.global.bilibili.com/intl/gateway/v2/app/search/type?${sign_Params(th_search.params, bstar_Sign)}`
     let resp = await axios(th_search.options)

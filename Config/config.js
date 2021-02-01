@@ -8,7 +8,7 @@ const port = 39831 //服务器启动端口
 
 //socks5代理
 const tw_proxy = '127.0.0.1:41000'
-const cn_proxy = '127.0.0.1:41001'
+const cn_proxy = '' // Required
 const th_proxy = '127.0.0.1:41002'
 const hk_proxy = '127.0.0.1:41000'
 
